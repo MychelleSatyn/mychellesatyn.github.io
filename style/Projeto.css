@@ -1,0 +1,56 @@
+.jumbotron{
+    background-image: url(../imagens/Cabeçalho.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo{
+    color: #fff;
+    font-style: italic;
+}
+.background{
+    background-color: #c2cfee;
+}
+.corMenu{
+    background-color: #2F5CCF;
+}
+.descobrir{
+    background-color: #2F5CCF;
+
+}
+.imagem{
+    text-align: center;
+}
+.lista{
+    list-style: none;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.tamanhoProjeto2{
+    padding: 50px;
+}
+.tamanhoProjeto4{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 7px;
+}
+.tamanhoProjeto3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tamanhoProjeto{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.titulo{
+    padding: 20px;
+    color: black;
+}
+.footer{
+    padding-left: 360px;
+}
+.footer2{
+    padding-top: 50px;
+}
