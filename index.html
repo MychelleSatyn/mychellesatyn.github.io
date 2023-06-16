@@ -44,13 +44,13 @@
     <section class="descobrir rounded">
     <section class="jumbotron border border-dark">
         <div class="container">
-            <h1 class="titulo">Turismo na América Latina</h1>
+            <h1 class="tituloPrincipal">Turismo na América Latina</h1>
             <form class="input-group">
             <input type="search"
             class="form-control"
             placeholder="O que você precisa...">
             <span class="input-group-btn">
-                <button class="btn btn-primary">Pesquisar</button>
+                <button class="btn btn-primary" id="botao">Pesquisar</button>
             </span> 
             </form>
         </div>
@@ -58,13 +58,7 @@
     </section>
     <section>
         <div class="container d-flex bd-highlight">
-            <ul>
-               <a class="btn btn-primary border border-dark" href="./index.html" role="button">Sobre</a>
-               <a class="btn btn-primary border border-dark" href="./pages/Restaurantes.html" role="button">Restaurantes</a>
-               <a class="btn btn-primary border border-dark" href="./pages/Hoteis-Pousadas.html" role="button">Hotéis e Pousadas</a>
-               <a class="btn btn-primary border border-dark" href="./pages/Pontos-Turísticos.html" role="button">Onde visitar</a>
-               <a class="btn btn-primary border border-dark" href="./pages/Passagem.html" role="button">Passagens aéreas</a>
-           </ul>
+           
    </div>
     </section>
 </section>
@@ -75,6 +69,7 @@
                 alt="Responsive image"
                 width="800"> 
         <div class="blockquote">
+          <div class="container p-3">
         <p> O Peru é um país da América do Sul que abriga uma parte da Floresta Amazônica e Machu Picchu, uma antiga cidade inca na cordilheira dos Andes. A região ao redor de Machu Picchu, que abrange o Vale Sagrado dos Incas, o Camino Inca e a cidade colonial de Cusco, é rica em sítios arqueológicos. Na costa árida do Pacífico fica Lima, a capital, com um centro colonial preservado e coleções importantes de arte pré-colombiana.
         </p>
         <h3> História</h3> 
@@ -85,44 +80,43 @@
         <p> O Império Inca durante o século XV teve seu chamado "período de esplendor" devido ao seu rápido desenvolvimento e expansão territorial por toda a América do Sul, chegando pelo sul até o Rio Maule no Chile e pelo norte até o Rio Ancasmayo na Colômbia, tendo aproximadamente 2 milhões de km², o Império Inca se localizou nos territórios atuais do oeste do Peru, Equador e Bolívia, ao norte do Chile, ao sul da Colômbia e ao noroeste da Argentina. Sua capital era a cidade de Cusco, localizado na serra sul do Peru. Além de seu poder militar, se destacou também sua arquitetura, por exemplo, a conhecida cidade de Machu Picchu.</p>
         <p>Nos anos entre 1524 e 1526 a varíola, introduzida a partir do Panamá antes da conquista espanhola varreu o império inca. A morte do governante inca Huayna Capac, bem como da maioria de sua família, incluindo seu herdeiro, causou a queda da estrutura política inca e contribuiu para a guerra civil entre os irmãos Atahualpa e Huáscar.</p>
     </div>
+  </div>
     </section>
 </main>
 <footer class="footer2">
-    <div class="card text-center">
-        <div class="descobrir card-body">
-          <h5 class="card-title">Esteja pronto para sua viagem</h5>
-          <p class="card-text">Programe tudo que precisa, conheça hotéis, restaurantes e muito mais!!!</p>
-          <form>
-            <div class="footer form-row align-items-center">
-              <div class="col-auto">
-                <label class="sr-only" for="inlineFormInput">Nome</label>
-                <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Nome">
-              </div>
-              <div class="col-auto">
-                <label class="sr-only" for="inlineFormInputGroup">Usuário</label>
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">@</div>
-                  </div>
-                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Usuário">
+  <div class="card text-center">
+      <div class="descobrir card-body">
+        <h5 class="card-title">Esteja pronto para sua viagem</h5>
+        <p class="card-text">Programe tudo que precisa, conheça hotéis, restaurantes e muito mais!!!</p>
+        <form class="footer align-items-center ">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-4">
+              <label class="sr-only" for="inlineFormInput">Nome</label>
+              <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Nome">
+            </div>
+            <div class="col-md-4">
+              <label class="sr-only" for="inlineFormInputGroup">Usuário</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">@</div>
                 </div>
-              </div>
-              <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-2">Cadastra-se</button>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Usuário">
               </div>
             </div>
-          </form>
-        </div>
-        <div class="card">
-          <div class=>
-           <a href=# class="badge badge-primary">Serviços</a> 
-           <a href=# class="badge badge-primary">Sua conta</a>
-            <a href=# class="badge badge-primary">Central de ajuda</a>
-            <a href=# class="badge badge-primary">Sobre nós</a>
-            </div>
-        </div>
+              <button type="submit" class="btn btn-primary mb-2">Cadastra-se</button>
+          </div>
+        </form>
       </div>
-  </footer>
+      <div class="card">
+        <div class=>
+         <a href=# class="badge badge-primary">Serviços</a> 
+         <a href=# class="badge badge-primary">Sua conta</a>
+          <a href=# class="badge badge-primary">Central de ajuda</a>
+          <a href=# class="badge badge-primary">Sobre nós</a>
+          </div>
+      </div>
+    </div>
+</footer>
 </body>
 </html>
 
